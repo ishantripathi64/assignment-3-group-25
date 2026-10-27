@@ -1,0 +1,13 @@
+{
+  "name": "sqli-auth-bypass-demo",
+  "version": "1.0.0",
+  "description": "SQL injection authentication-bypass demo: vulnerable vs patched login (IT-30001 Module 3)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.0"
+  }
+}
